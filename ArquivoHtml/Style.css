@@ -1,0 +1,13 @@
+/*Folha de estilo do site one page - @autor Ruanfonseca desenvolvedor*/
+/*Foi utilizado media queries partindo do smartphone em modo portrait*/
+
+/*SmartPhone Portrait-------------------------------------*/
+/*SmartPhone LandScape-------------------------------------*/
+@media(min-width:576px){
+   body{
+    background-color: #ff0000;
+   }
+}
+/*Tablet Portrait -------------------------------------*/
+/*Tablet Landscape -------------------------------------*/
+/*PC -------------------------------------*/
