@@ -18,6 +18,12 @@ body {
     /*16px*/
 }
 
+.parallax{
+    background: url(img/fundo_Worship.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 /*layout*/
 .container {
     margin: 0 auto;
@@ -27,33 +33,40 @@ body {
     border-radius: 50%;
     margin-right: 50px;
 }
+
 .Flex {
     display: flex;
     justify-content: space-between;
 
 }
+
 .Flex2 {
     display: flex;
     align-items: center;
 }
-.Flex3{
+
+.Flex3 {
     display: flex;
     flex-direction: column;
 }
-.Flex4{
+
+.Flex4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.Flex5{
+
+.Flex5 {
     display: flex;
     flex-direction: column-reverse;
 }
-.Flex6{
+
+.Flex6 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
 .Botao {
     text-decoration: none;
     color: #ffff;
@@ -65,37 +78,73 @@ body {
     border-radius: 25px;
 }
 
+.Princi {
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+.Princi2 {
+    box-shadow: 0 1px 2px #0003;
+    width: 100%;
+}
+
+.swiper {
+    height: 600px;
+    
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*topo do site*/
 #topo {
     position: fixed;
     right: 10px;
     bottom: 10px;
 }
+
 /*cartoes*/
-.card{
-    margin-top: 25px;
+.card {
+    margin-top: 0px;
+    margin-bottom: 0;
     width: 338px;
-    height: 520px;
+    height: 460px;
     background-color: #e8e8e8;
     border: 1px solid #a1a1a1;
     border-radius: 25px;
     text-align: center;
 }
-.card img{
+
+.card img {
     border-radius: 25px 25px 0px 0px;
 }
-.card h3{
-    margin-top: 15px;
+
+.card h3 {
+    margin-top: 5px;
 }
-.card p{
+
+.card p {
     text-align: left;
     color: #434343;
     padding: 10px 30px 50px 30px;
 }
+
 .card a {
     padding: 10px 100px;
     border: 0;
 }
+
 /*SmartPhone Portrait-------------------------------------*/
 /*cabeçalho*/
 header {
@@ -174,28 +223,34 @@ main h2 {
 }
 
 /*PDF*/
-#ArquivoPdf{
-    padding:50px 0px;
-    background:url(./img/fundo_Worship.jpg);
+#ArquivoPdf {
+    padding: 50px 0px;
+    background: url(./img/fundo_Worship.jpg);
     background-size: cover;
     background-position: center;
 }
-#textoPDF{
+
+#textoPDF {
     color: #fff;
     padding: 0px 10px;
 }
-#textoPDF h2{
+
+#textoPDF h2 {
     margin-bottom: 10px;
 }
-#textoPDF p{
+
+#textoPDF p {
     margin-bottom: 40px;
 }
-#textoPDF span{
+
+#textoPDF span {
     display: none;
 }
-#qrCode{
+
+#qrCode {
     display: none;
 }
+
 /*Sobre*/
 #sobre {
     padding: 50px 0px;
@@ -243,56 +298,69 @@ main h2 {
     height: 191px;
     border: 0;
 }
+
 /*conteudo*/
-#conteudo{
+#conteudo {
     padding: 50px 0px;
 }
-#conteudo h2{
+
+#conteudo h2 {
     margin-bottom: 25px;
     text-align: center;
 }
-#todos{
+
+#todos {
     margin-top: 50px;
     text-align: center;
 }
-#todos a{
+
+#todos a {
     text-decoration: none;
     color: #000;
     font-size: 700;
     font-size: 1.5em;
 }
-address{
-    padding:35px 10px 50px 10px;
+
+address {
+    padding: 35px 10px 50px 10px;
     background: url(./img/tela_de_fundo.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
 }
-address a{
+
+address a {
     text-decoration: none;
     color: #fff;
 }
-address img{
+
+address img {
     padding-top: 15px;
 }
-#iconeLocal{
+
+#iconeLocal {
     display: none;
 }
-#dados{
+
+#dados {
     margin: 30px 0px 15px 0px;
 }
-#googlemaps{
+
+#googlemaps {
     display: none;
 }
-footer{
+
+footer {
     padding: 50px;
     background-color: #434343;
-    color:#fff;
+    color: #fff;
     text-align: center;
 }
-#social{
+
+#social {
     margin-bottom: 25px;
 }
+
 /*SmartPhone LandScape-------------------------------------*/
 @media (min-width:576px) {
     .container {
@@ -315,13 +383,15 @@ footer{
         width: 560px;
         height: 315px;
     }
+
     /*rodapé*/
-    .Flex5{
+    .Flex5 {
         flex-direction: line;
         justify-content: space-between;
         align-items: center;
     }
-    #social{
+
+    #social {
         margin: 0;
     }
 }
@@ -348,13 +418,7 @@ footer{
 
     main h2 {
         font-size: 2em;
-    }
-
-    /*one page*/
-    #video iframe {
-        width: 560px;
-        height: 315px;
-    }
+    }    
 }
 
 /*Tablet Landscape -------------------------------------*/
@@ -370,12 +434,6 @@ footer{
 
     main {
         height: 70vh;
-    }
-
-    /*one page*/
-    #video iframe {
-        width: 560px;
-        height: 315px;
     }
 }
 
@@ -445,35 +503,44 @@ footer{
         width: 560px;
         height: 315px;
     }
-    .Flex3{
+
+    .Flex3 {
         flex-direction: row;
         align-items: center;
     }
+
     /*arquivopdf*/
-    #ArquivoPdf{
+    #ArquivoPdf {
         background-attachment: fixed;
     }
-    #ArquivoPdf span{
-        display:inline ;
+
+    #ArquivoPdf span {
+        display: inline;
     }
+
     #qrCode {
         display: inline;
-      }
-    #qrCode img{
+    }
+
+    #qrCode img {
         width: 225px;
         height: 225px;
     }
+
     /*rodapé*/
     #iconeLocal {
         display: inline;
     }
-    #iconeMapa{
+
+    #iconeMapa {
         display: none;
     }
-    #googlemaps{
+
+    #googlemaps {
         display: inline;
     }
-    .Flex6{
+
+    .Flex6 {
         flex-direction: row-reverse;
     }
 }

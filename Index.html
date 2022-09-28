@@ -12,6 +12,10 @@
     />
     <link rel="icon" href="./img/faviconImmec.png" />
     <link rel="stylesheet" href="Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
@@ -33,17 +37,20 @@
         </nav>
       </div>
     </header>
+
     <!-- Destaque -->
     <main>
       <div class="container">
         <h1>Igreja Metodista Cristã</h1>
         <h2>Aqui nós somos um em Cristo Jesus!</h2>
-        <br/>
-        <br/>
-        <br/>
+        <br />
+        <br />
+        <br />
         <a href="" target="_blank" class="Botao">Saiba mais</a>
       </div>
     </main>
+
+    <div class="parallax">
     <!-- Sobre -->
     <section id="sobre">
       <div class="container Flex2">
@@ -82,8 +89,8 @@
     <section id="onePage">
       <div class="container Flex3">
         <div class="textoSite">
-          <h2>lala3</h2>
-          <p>
+          <h2 style="color:#fff ;">lala3</h2>
+          <p style="color:#fff ;">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
           </p>
@@ -125,103 +132,152 @@
     </section>
     <!-- Conteudo -->
     <section id="conteudo">
-      <div class="container">
-        <h3>Conteudos >> </h3>
-        <div class="cards Flex4">
-          <div class="card">
-            <img src="./img/estruturahtml.png" alt="comunicado" />
-            <h3>comunicado um</h3>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-            </p>
-            <a
-              href="https://www.facebook.com/photo/?fbid=1239072313328149&set=a.116439548924770"
-              target="-blank"
-              class="Botao"
-              >Saiba mais</a
-            >
+      <h2 style="color:#fff ;">AVISOS--</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <div class="card">
+                <img src="./img/estruturahtml.png" alt="comunicado" />
+                <h3>comunicado um</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                </p>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=1239072313328149&set=a.116439548924770"
+                  target="-blank"
+                  class="Botao"
+                  >Saiba mais</a
+                >
+              </div>
+
+
+
+            </div>
           </div>
-          <div class="card">
-            <img src="./img/boxmodel.png" alt="comunicado" />
-            <h3>comunicado um</h3>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-            </p>
-            <a
-              href="https://www.facebook.com/photo/?fbid=1239072313328149&set=a.116439548924770"
-              target="-blank"
-              class="Botao"
-              >Saiba mais</a
-            >
+          <div class="swiper-slide">
+            <div class="project-img">
+              
+              <div class="card">
+                <img src="./img/boxmodel.png" alt="comunicado" />
+                <h3>comunicado um</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                </p>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=1239072313328149&set=a.116439548924770"
+                  target="-blank"
+                  class="Botao"
+                  >Saiba mais</a
+                >
+              </div>
+
+
+
+
+            </div>
           </div>
-          <div class="card">
-            <img src="./img/mstile-150x150.png" alt="comunicado" />
-            <h3>comunicado um</h3>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-            </p>
-            <a
-              href="https://www.facebook.com/photo/?fbid=1239072313328149&set=a.116439548924770"
-              target="-blank"
-              class="Botao"
-              >Saiba mais</a
-            >
+          <div class="swiper-slide">
+            <div class="project-img">
+              <div class="card">
+                <img src="./img/mstile-150x150.png" alt="comunicado" />
+                <h3>comunicado um</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                </p>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=1239072313328149&set=a.116439548924770"
+                  target="-blank"
+                  class="Botao"
+                  >Saiba mais</a
+                >
+              </div>
+
+
+
+
+            </div>
           </div>
         </div>
-        <div class="todos">
-          <a
-            href="https://www.facebook.com/photo/?fbid=1239072313328149&set=a.116439548924770"
-            target="_blank"
-            >Conheça todos</a>
-        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
     <!-- rodapé-->
     <address>
-       <div class="container Flex6">
-          <div class="contato">
-             <a href="https://api.whatsapp.com/message/PFQJFJKDQIYXC1?autoload=1&app_absent=0">
-                <img src="./img/whatsapp.png" alt="whatsapp" title="Abrir no whatsapp" target="_blank">
-                <p>(21)969326875</p>
-             </a>
-             <img src="./img/fone.png" alt="fone">
-             <p>(21)969326875</p>
-          </div>
-          <div class="endereco">
-           <a href="https://goo.gl/maps/anrUaAQJHS3NbTfR8"><img src="./img/mapa.png" alt="mapa"id="iconeMapa"></a>
-            <img src="./img/local.png" alt="local"id="iconeLocal">  
-            <p>Rua do Turista N°20</p>
-            <p>Campo Grande</p>
-            <p>Rio de Janeiro</p>
-            <a href="mailto:whitelook22@outlook.com?subject=ContatoComAigreja">
-                <img src="./img/email.png" alt="email" title="Enviar E-mail">
-                Enviar E-mail
-            </a>
-            <p id="dados">&#128064;Endereço e dados de contatos ficticios</p>
+      <div class="container Flex6">
+        <div class="contato">
+          <a
+            href="https://api.whatsapp.com/message/PFQJFJKDQIYXC1?autoload=1&app_absent=0"
+          >
+            <img
+              src="./img/whatsapp.png"
+              alt="whatsapp"
+              title="Abrir no whatsapp"
+              target="_blank"
+            />
+            <p>(21)969326875</p>
+          </a>
+          <img src="./img/fone.png" alt="fone" />
+          <p>(21)969326875</p>
         </div>
-          <div class="googlemaps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.96564425263!2d-43.5307755!3d-22.914638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be12e140d4205%3A0x9484a7cac2cc24ae!2sR.%20do%20Turista%20-%20Campo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023016-500!5e0!3m2!1spt-BR!2sbr!4v1664296860846!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" 
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-           </div>
+        <div class="endereco">
+          <a href="https://goo.gl/maps/anrUaAQJHS3NbTfR8"
+            ><img src="./img/mapa.png" alt="mapa" id="iconeMapa"
+          /></a>
+          <img src="./img/local.png" alt="local" id="iconeLocal" />
+          <p>Rua do Turista N°20</p>
+          <p>Campo Grande</p>
+          <p>Rio de Janeiro</p>
+          <a href="mailto:whitelook22@outlook.com?subject=ContatoComAigreja">
+            <img src="./img/email.png" alt="email" title="Enviar E-mail" />
+            Enviar E-mail
+          </a>
+          <p id="dados">&#128064;Endereço e dados de contatos ficticios</p>
+        </div>
+        <div class="googlemaps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.96564425263!2d-43.5307755!3d-22.914638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be12e140d4205%3A0x9484a7cac2cc24ae!2sR.%20do%20Turista%20-%20Campo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023016-500!5e0!3m2!1spt-BR!2sbr!4v1664296860846!5m2!1spt-BR!2sbr"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </address>
-    
+
     <footer id="contato">
       <div class="container Flex5">
         <div class="copyright">
-            <p>&#169;Desenvolvido pelo departamento de midia da Immec</p>
+          <p>&#169;Desenvolvido pelo Departamento de Midia da Immec Church</p>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/watch?v=CxfuwmmVfY0&ab_channel=HenriqueTezolin" target="_blank">
-                <img src="./img/youtube.png" alt="youtube"></a>
-            <a href="https://www.instagram.com/immecchurch/"target="-blank">
-                <img src="./img/instagram.png" alt=""></a>
-            <a href="https://www.facebook.com/immecchurch"><img src="./img/facebook.png" alt=""></a>
+          <a
+            href="https://www.youtube.com/watch?v=CxfuwmmVfY0&ab_channel=HenriqueTezolin"
+            target="_blank"
+          >
+            <img src="./img/youtube.png" alt="youtube"
+          /></a>
+          <a href="https://www.instagram.com/immecchurch/" target="-blank">
+            <img src="./img/instagram.png" alt=""
+          /></a>
+          <a href="https://www.facebook.com/immecchurch"
+            ><img src="./img/facebook.png" alt=""
+          /></a>
         </div>
       </div>
     </footer>
     <a href="#inicio" id="topo"
       ><img src="./img/topo.png" alt="Topo do site"
     /></a>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </div>
   </body>
+
 </html>
