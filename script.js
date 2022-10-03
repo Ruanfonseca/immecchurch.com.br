@@ -9,5 +9,6 @@ var swiper = new Swiper(".swiper", {
       el: ".swiper-pagination",
     },
     keyboard: true,
+    
   });
   
